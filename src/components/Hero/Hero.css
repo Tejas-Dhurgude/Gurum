@@ -1,0 +1,127 @@
+/* Import Amaranth Font */
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+/* Apply Amaranth font to the entire site */
+body {
+  font-family: 'Amaranth', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #f9f9f9;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.shop-now-btn {
+  padding: 10px 20px;
+  background-color: #001F3F;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f0f4ff;
+  padding: 50px 100px;
+  height: 80vh;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+/* Text Content */
+.text-content {
+  flex: 1;
+  margin-left: 7vw;
+}
+
+.text-content h4 {
+  font-size: 36px;
+  color: #6C63FF;
+}
+
+.text-content h1 {
+  font-size: 72px;
+  line-height: 72px; /* Ensure the line height matches the font size for consistent spacing */
+  margin: 10px 0;
+}
+
+.text-content .line1,
+.text-content .line2 {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.text-content .line1 {
+  margin-left: 0; /* No margin for the first line */
+}
+
+.text-content .line2 {
+  margin-left: 0; /* Adjust this if needed to ensure alignment */
+}
+
+.text-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: larger;
+}
+
+/* Image Content */
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+}

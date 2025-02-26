@@ -1,0 +1,82 @@
+.dental-clinic {
+    
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .header-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .why-choose {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .services {
+    padding: 40px;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .patient-journey,
+  .meet-team,
+  .appointment-form,
+  .testimonials,
+  .faq {
+    padding: 40px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appointment-form input,
+  .appointment-form textarea,
+  .appointment-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .appointment-form button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

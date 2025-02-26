@@ -1,0 +1,117 @@
+.lab-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Amaranth';
+    color: #2c3e50;
+  }
+  
+  .lab-header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .lab-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .lab-header h2 {
+    font-size: 1.8rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  
+  .lab-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #3498db;
+  }
+  
+  .lab-section {
+    margin-bottom: 40px;
+  }
+  
+  .lab-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .lab-section p, .lab-section ul {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+  }
+  
+  .lab-section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+  }
+  
+  .lab-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .consultation-section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .consultation-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .consultation-form label {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  .consultation-form input, .consultation-form select, .consultation-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
+  
+  .consultation-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .submit-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2ecc71;
+  }
+  

@@ -1,0 +1,72 @@
+/* Top bar with opening hours and social icons */
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-bar {
+    background-color: #2ad2c9;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    height: 7vh;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 70px;
+    height: auto;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .appointment .appointment-btn {
+    background-color: #2ad2c9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .appointment-btn:hover {
+    background-color: #28bbb2;
+  }
+  
+
+  .slideshow {
+    position: relative;
+    width: 100%;  /* Adjust as necessary */
+    height: 100%; /* Adjust as necessary */
+    overflow: hidden;
+  }
+  

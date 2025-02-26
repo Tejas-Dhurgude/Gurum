@@ -1,0 +1,85 @@
+.footer {
+  /* margin-top: 50vh; */
+  background-color: #011326;
+  padding: 40px 20px;
+  color: wheat;
+  font-family: 'Amaranth';
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+  color: wheat;
+}
+
+.subscribe input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color: rgb(1, 4, 6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: wheat;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: wheat;
+  font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+  color: #000;
+}

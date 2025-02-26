@@ -1,0 +1,68 @@
+.hero3 {
+  margin-top: 7vh;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f0f4ff;; /* Softer background color */
+}
+
+.hero3 h3 {
+  font-size: 18px;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.hero3 h1 {
+  font-size: 42px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #000;
+}
+
+.hero3 .description {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #555555;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensure responsiveness */
+  gap: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 15px; /* Softer rounded corners */
+  padding: 30px 20px;
+  width: 280px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow for emphasis */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Elevated shadow on hover */
+}
+
+.service-card img {
+  width: 100px; /* Larger image for prominence */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #002244;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #595959;
+}

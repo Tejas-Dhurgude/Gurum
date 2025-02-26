@@ -1,0 +1,285 @@
+.hero2 {
+     
+    padding: 50px 100px;
+    padding-bottom:0px ;
+    background-color: #fff;
+  }
+  
+  .hero2-content {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    gap: 5rem;
+  }
+  
+  .hero2-image img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    width: 1400%;
+  }
+  
+  .hero2-text {
+    max-width: 500px;
+    padding-left: 50px;
+    
+  }
+  
+  .hero2-text h4 {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 400;
+  }
+  
+  .hero2-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .hero2-text p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #595959;
+  }
+  
+  .learn-more-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #001F3F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Amaranth';
+    font-size: 32px;
+  }
+  
+  /* Commitment Section */
+  .hero2-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  .commitment-section {
+    max-width: 400px;
+  }
+  
+  .commitment-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .commitment-section p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #595959;
+  }
+  
+  /* Statistics Section */
+  .statistics {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .stat-item p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .stat-item span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #8c8c8c;
+  }
+  
+  /* Hero Section 2 */
+.hero2-content {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center; /* Vertically center items */
+  padding: 50px 100px;
+  background-color: #f0f4ff;
+  margin-bottom: 8vh;
+
+}
+
+/* Individual sections */
+.hero2-image img {
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  height: auto;
+  width: 500px; /* Set a fixed width for the image */
+}
+
+.txt, .hero2-text {
+  flex: 1; /* Let text components take equal space */
+  margin: 0 20px; /* Add some spacing between components */
+}
+
+.txt h1, .hero2-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.txt p, .hero2-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Responsive behavior */
+@media (max-width: 900px) {
+  .hero2-content {
+    flex-direction: column; /* Stack them on top of each other on smaller screens */
+    text-align: center;
+  }
+
+  .txt, .hero2-text {
+    margin: 20px 0; /* Add spacing between the components when stacked */
+  }
+}
+
+
+.btn-all{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8rem;
+  grid-row-gap: 10px; 
+  
+}
+.btn-all button{
+  height: 12vh;
+  font-weight: 700;
+  font-size: 28px;
+  
+}
+.btn{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.txt {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+  gap: 1rem;
+}
+
+.txt h1 {
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove default padding */
+  font-size: 54px;
+  display: inline-block; /* Make h1 behave like an inline element */
+}
+
+.txt p {
+  margin: 0; /* Remove any default margin */
+  padding-top: 10px; /* Optional: Add some space between the h1 and p */
+  font-size: 21px;
+  line-height: 1.6;
+}
+
+.txt2 {
+  text-align: center;
+  font-size: 28px; /* Adjust the size as per your need */
+  margin: 0;
+  padding: 20px 0; /* Optional: Adds vertical padding */
+  
+}
+
+.commitment-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f4fc;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  
+}
+
+.commitment-details {
+  max-width: 50%;
+}
+
+.commitment-details h2 {
+  font-size: 32px;
+  color: #002244;
+  margin-bottom: 20px;
+}
+
+.commitment-details p {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+.learn-btn {
+  background-color: #002244;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.learn-btn:hover {
+  background-color: #004488;
+}
+
+.commitment-stats {
+  display: flex;
+  gap: 50px;
+}
+
+.commitment-stat-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.commitment-stat-item h1 {
+  font-size: 42px;
+  color: #002244;
+  margin-bottom: 10px;
+}
+
+.commitment-stat-item p {
+  font-size: 18px;
+  color: #555555;
+}
+
+.commitment-stat-item span {
+  font-size: 16px;
+  color: #777777;
+}

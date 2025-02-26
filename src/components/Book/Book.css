@@ -1,0 +1,76 @@
+body {
+    font-family: 'Amaranth';
+    line-height: 1.6;
+  }
+  
+  .header-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .cta-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .consultation-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .consultation-option {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0;
+  }
+  
+  form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .faq h3 {
+    margin: 10px 0;
+  }
+  
